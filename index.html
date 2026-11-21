@@ -1,0 +1,562 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Zohaib Khan Kakar - IT Student and Web Developer Portfolio">
+    <meta name="theme-color" content="#100d20">
+
+    <title>Zohaib Khan Kakar | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                Zohaib<span>.</span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    type="button"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="theme-toggle"
+                    class="theme-toggle"
+                    type="button"
+                    aria-label="Switch to light mode">
+                ☀️ Light Mode
+            </button>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home" class="hero">
+
+            <div class="hero-content reveal">
+
+                <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>
+                    Hi, I'm <span>Zohaib Khan Kakar</span>
+                </h1>
+
+                <h2 class="typing-heading">
+                    I'm a <span id="typing-text">IT Student</span>
+                </h2>
+
+                <p class="description">
+                    I am an Information Technology student at the
+                    University of Balochistan with an interest in
+                    web development. I enjoy creating beautiful,
+                    responsive and user-friendly websites using
+                    HTML, CSS and JavaScript.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn">
+                        View My Work
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Contact Me
+                    </a>
+
+                    <a href="resume.pdf"
+                       class="btn resume-btn"
+                       download>
+                        📄 Download CV
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/Zohaib-khan-95993944b/"
+                       class="btn linkedin-btn"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <span class="linkedin-mark">in</span>
+                        LinkedIn
+                    </a>
+
+                    <a href="https://github.com/Zohaibkhankakar"
+                       class="btn github-btn"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        ⌨ GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-card reveal">
+
+                <img src="WhatsApp Image 2026-11-09 at 11.02.36 PM.jpeg"
+                     alt="Profile photo of Zohaib Khan Kakar"
+                     class="profile-image">
+
+                <h2>Zohaib Khan Kakar</h2>
+
+                <p>IT Student | Web Developer</p>
+
+                <div class="status">
+                    ● Available for Learning
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="section">
+
+            <h2 class="section-title reveal">
+                About <span>Me</span>
+            </h2>
+
+            <div class="about-box reveal">
+
+                <h3>Who Am I?</h3>
+
+                <p>
+                    My name is Zohaib Khan Kakar. I am an
+                    Information Technology student at the
+                    University of Balochistan, Quetta.
+
+                    I am passionate about technology,
+                    programming and web development.
+
+                    I have experience creating website
+                    structures with HTML and styling them
+                    with CSS. I am also learning JavaScript
+                    to improve my programming knowledge.
+
+                    My goal is to continue learning,
+                    build useful projects and become
+                    a professional web developer.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+
+            <h2 class="section-title reveal">
+                My <span>Education</span>
+            </h2>
+
+            <div class="education-container">
+
+                <div class="education-card reveal">
+
+                    <div class="education-icon">🎓</div>
+
+                    <h3>BS Information Technology</h3>
+
+                    <p class="college-name">
+                        University of Balochistan, Quetta
+                    </p>
+
+                    <span class="education-year">
+                        Currently Pursuing
+                    </span>
+
+                </div>
+
+                <div class="education-card reveal">
+
+                    <div class="education-icon">🏫</div>
+
+                    <h3>College Education</h3>
+
+                    <p class="college-name">
+                        IQRA RESIDENTIAL SCHOOL AND COLLEGE QUETTA
+                    </p>
+
+                    <span class="education-year">
+                        Completed — 2024
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+
+            <h2 class="section-title reveal">
+                My <span>Skills</span>
+            </h2>
+
+            <div class="skills-container">
+
+                <div class="skill-box reveal">
+
+                    <div class="skill-icon">🌐</div>
+
+                    <h3>HTML5</h3>
+
+                    <p>
+                        Creating website structures
+                        and organizing web content.
+                    </p>
+
+                </div>
+
+                <div class="skill-box reveal">
+
+                    <div class="skill-icon">🎨</div>
+
+                    <h3>CSS3</h3>
+
+                    <p>
+                        Styling websites with modern
+                        colors, layouts and designs.
+                    </p>
+
+                </div>
+
+                <div class="skill-box reveal">
+
+                    <div class="skill-icon">📱</div>
+
+                    <h3>Responsive Design</h3>
+
+                    <p>
+                        Creating websites suitable
+                        for mobile, tablet and desktop.
+                    </p>
+
+                </div>
+
+                <div class="skill-box reveal">
+
+                    <div class="skill-icon">⚡</div>
+
+                    <h3>JavaScript</h3>
+
+                    <p>
+                        Learning interactive website
+                        functionality and programming.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+
+            <h2 class="section-title reveal">
+                My <span>Projects</span>
+            </h2>
+
+            <p class="section-description reveal">
+                Some of my web development work and practice projects.
+            </p>
+
+            <div class="projects-container">
+
+                <div class="project-card reveal">
+
+                    <div class="project-icon">🌐</div>
+
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        A personal portfolio website
+                        showcasing my education, skills
+                        and web development journey.
+                    </p>
+
+                    <span>HTML | CSS | JavaScript</span>
+
+                    <a href="https://github.com/Zohaibkhankakar"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        View on GitHub ↗
+                    </a>
+
+                </div>
+
+                <div class="project-card reveal">
+
+                    <div class="project-icon">🎨</div>
+
+                    <h3>Web Design Practice</h3>
+
+                    <p>
+                        Practice webpage designs focused
+                        on layouts, colors and responsive styling.
+                    </p>
+
+                    <span>HTML | CSS</span>
+
+                    <a href="https://github.com/Zohaibkhankakar"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        View on GitHub ↗
+                    </a>
+
+                </div>
+
+                <div class="project-card reveal">
+
+                    <div class="project-icon">💻</div>
+
+                    <h3>Practice Projects</h3>
+
+                    <p>
+                        Small learning projects created
+                        to improve my programming and
+                        frontend development skills.
+                    </p>
+
+                    <span>HTML | CSS | JavaScript</span>
+
+                    <a href="https://github.com/Zohaibkhankakar"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        View on GitHub ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Statistics Section -->
+        <section id="statistics" class="section statistics">
+
+            <h2 class="section-title reveal">
+                My <span>Journey</span>
+            </h2>
+
+            <p class="stats-description reveal">
+                My learning journey and web development progress.
+            </p>
+
+            <div class="stats-container">
+
+                <div class="stat-card reveal">
+
+                    <div class="stat-icon">🚀</div>
+
+                    <h3>
+                        <span class="counter" data-target="3">0</span>
+                    </h3>
+
+                    <p>Project Categories</p>
+
+                </div>
+
+                <div class="stat-card reveal">
+
+                    <div class="stat-icon">💻</div>
+
+                    <h3>
+                        <span class="counter" data-target="3">0</span>
+                    </h3>
+
+                    <p>Core Web Technologies</p>
+
+                </div>
+
+                <div class="stat-card reveal">
+
+                    <div class="stat-icon">🎓</div>
+
+                    <h3>BS IT</h3>
+
+                    <p>Academic Program</p>
+
+                </div>
+
+                <div class="stat-card reveal">
+
+                    <div class="stat-icon">🎯</div>
+
+                    <h3>100%</h3>
+
+                    <p>Focus on Learning</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+
+            <h2 class="section-title reveal">
+                Contact <span>Me</span>
+            </h2>
+
+            <div class="contact-box reveal">
+
+                <h3>Let's Connect!</h3>
+
+                <p>
+                    Have a question or want to connect?
+                    Feel free to send me a message.
+                </p>
+
+                <form class="contact-form"
+                      action="https://formsubmit.co/zk7738713@gmail.com"
+                      method="POST">
+
+                    <input type="hidden"
+                           name="_subject"
+                           value="New Portfolio Message">
+
+                    <input type="hidden"
+                           name="_captcha"
+                           value="true">
+
+                    <input type="text"
+                           name="_honey"
+                           class="honeypot"
+                           tabindex="-1"
+                           autocomplete="off">
+
+                    <input type="text"
+                           name="name"
+                           placeholder="Your Full Name"
+                           autocomplete="name"
+                           required>
+
+                    <input type="email"
+                           name="email"
+                           placeholder="Your Email Address"
+                           autocomplete="email"
+                           required>
+
+                    <input type="text"
+                           name="subject"
+                           placeholder="Subject"
+                           required>
+
+                    <textarea name="message"
+                              placeholder="Write Your Message..."
+                              rows="6"
+                              required></textarea>
+
+                    <button type="submit" class="btn">
+                        Send Message ✉
+                    </button>
+
+                    <p class="form-status"
+                       id="form-status"
+                       role="status"
+                       aria-live="polite"></p>
+
+                </form>
+
+                <p class="email">
+                    📧 Email:
+                    <a href="mailto:zk7738713@gmail.com">
+                        zk7738713@gmail.com
+                    </a>
+                </p>
+
+                <div class="social-links">
+
+                    <h3>Find Me Online</h3>
+
+                    <a href="https://www.facebook.com/share/1Ca7UoJET8/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Facebook
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/Zohaib-khan-95993944b/"
+                       class="social-linkedin"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <span class="linkedin-mark">in</span>
+                        LinkedIn
+                    </a>
+
+                    <a href="https://github.com/Zohaibkhankakar"
+                       class="social-github"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © <span id="current-year">2026</span>
+            Zohaib Khan Kakar. All Rights Reserved.
+        </p>
+
+        <p>
+            Designed with HTML, CSS & JavaScript ❤️
+        </p>
+
+        <a class="footer-linkedin"
+           href="https://www.linkedin.com/in/Zohaib-khan-95993944b/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Connect on LinkedIn ↗
+        </a>
+
+    </footer>
+
+</body>
+</html>
